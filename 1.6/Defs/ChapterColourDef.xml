@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <Genes40k.ChapterColourDef ParentName="BEWH_ChapterColourPresets">
+        <defName>BEWH_ChapterColourBlackTemplars</defName>
+        <label>BlackTemplars</label>
+        <primaryColour>(38,65,54)</primaryColour>
+        <secondaryColour>(71,71,71)</secondaryColour>
+        <relatedChapterGene>BEWH_ChapterBlackTemplars</relatedChapterGene>
+        <relatedChapterIcon>BEWH_ChapterIconBlackTemplars</relatedChapterIcon>
+    </Genes40k.ChapterColourDef>
+
+</Defs>

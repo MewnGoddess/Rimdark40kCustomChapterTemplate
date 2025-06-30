@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Firstborn -->
+    <RecipeDef ParentName="BEWH_FirstbornVialInsertion">
+        <defName>BEWH_MakeFirstbornChapterBlackTemplar</defName>
+        <label>make Black Templar firstborn</label>
+        <modExtensions>
+            <li Class="Genes40k.DefModExtension_GeneseedVialRecipe">
+                <geneseedVial>BEWH_GeneseedVialFirstborn</geneseedVial>
+                <geneFromMaterial>BEWH_ChapterBlackTemplars</geneFromMaterial>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+    <!-- Primaris -->
+    <RecipeDef ParentName="BEWH_PrimarisVialInsertion">
+        <defName>BEWH_MakePrimarisChapterBlackTemplar</defName>
+        <label>make Black Templar primaris</label>
+        <modExtensions>
+            <li Class="Genes40k.DefModExtension_GeneseedVialRecipe">
+                <geneseedVial>BEWH_GeneseedVialPrimaris</geneseedVial>
+                <geneFromMaterial>BEWH_ChapterBlackTemplars</geneFromMaterial>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+</Defs>

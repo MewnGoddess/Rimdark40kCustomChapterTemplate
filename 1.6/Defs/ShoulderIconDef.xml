@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <Genes40k.ShoulderIconDef ParentName="BEWH_ChapterShoulderIcon">
+        <defName>BEWH_ChapterIconBlackTemplars</defName>
+        <label>Black Templars</label>
+        <description>Legion icon of the Black Templars.</description>
+        <iconPath>UI/Decoration/LegionBadges/BEWH_iconUI_Legion_BlackTemplars</iconPath>
+        <drawnTextureIconPath>Things/Armor/Imperium/PowerArmor/ChapterIcons/BEWH_BlackTemplarsShoulder</drawnTextureIconPath>
+        <sortOrder>5500</sortOrder>
+        <relatedChapterGene>BEWH_ChapterBlackTemplars</relatedChapterGene>
+    </Genes40k.ShoulderIconDef>
+
+</Defs>

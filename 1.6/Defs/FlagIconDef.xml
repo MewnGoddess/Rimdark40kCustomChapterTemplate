@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Dark Angels -->
+    <Genes40k.FlagIconDef>
+        <defName>BEWH_FlagIconBlackTemplars</defName>
+        <label>Black Templars</label>
+        <description>Legion insignia of the Black Templars.</description>
+        <iconPath>UI/Decoration/LegionBadges/BEWH_iconUI_Legion_BlackTemplars</iconPath>
+        <sortOrder>5500</sortOrder>
+    </Genes40k.FlagIconDef>
+
+</Defs>
