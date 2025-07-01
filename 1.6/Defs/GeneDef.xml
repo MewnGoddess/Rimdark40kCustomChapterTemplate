@@ -7,22 +7,17 @@
         <description>...</description>
         <iconPath>UI/Genes/ChapterSpecific/BEWH_ChapterBlackTemplars</iconPath>
         <displayOrderInCategory>100</displayOrderInCategory>
-        <customEffectDescriptions>
-            <li>15% decrease to gene-seed implantation failure chance.</li>
-            <li>15% decrease to gene-seed implantation failure chance cap.</li>
-            <li>Increased chance for rubicon surgery survival.</li>
-        </customEffectDescriptions>
-        <statFactors>
-            <WorkSpeedGlobal>1</WorkSpeedGlobal>
-        </statFactors>
+        <statOffsets>
+            <MoveSpeed>0.1</MoveSpeed>
+            <ShootingAccuracyFactor_Short>0.1</ShootingAccuracyFactor_Short>
+            <ShootingAccuracyFactor_Touch>0.2</ShootingAccuracyFactor_Touch>
+            <MeleeHitChance>4</MeleeHitChance>
+            <MeleeDodgeChance>2</MeleeDodgeChance>
+            <MeleeDamageFactor>0.1</MeleeDamageFactor>
+        </statOffsets>
         <modExtensions>
             <li Class="Genes40k.DefModExtension_ChapterGene">
                 <chapterName>Black Templars</chapterName>
-            </li>
-            <li Class="Genes40k.DefModExtension_GeneseedPurity">
-                <additionalChanceOffset>-15</additionalChanceOffset>
-                <additionalChanceCapOffset>-15</additionalChanceCapOffset>
-                <rubiconAdditionalChanceOffset>0.4</rubiconAdditionalChanceOffset>
             </li>
         </modExtensions>
     </GeneDef>
