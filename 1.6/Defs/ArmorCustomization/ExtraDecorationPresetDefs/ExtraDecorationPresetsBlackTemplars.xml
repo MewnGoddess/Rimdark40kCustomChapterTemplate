@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<!-- 
+Preset colours palette (For your own sanity)
+Pouch Grey: (114,114,114)
+Silver: (173,178,178)
+Maroon: (104,24,33)
+Fabric Beige: (160, 158, 137)
+Gold: (240,176,29)
+Black: (50,51,50)
+Apothecary white: (218,210,199)
+Apothecary red: (162, 54, 39)
+ -->
+
+<!-- Emperor's Champion -->
+    <!-- Body -->
+    <Core40k.ExtraDecorationPresetDef> <!-- MkVII -->
+        <defName>BEWH_BT_ChampionBodyMkVII</defName>
+        <label>Emperor's Champion</label>
+        <appliesTo>
+            <li>BEWH_MkVIIPowerArmor</li>
+        </appliesTo>
+        <presetData>
+        <BEWH_Deco_MkVIIApothecaryTabard>
+            <flipped>false</flipped>
+            <colour>(162, 54, 39)</colour>
+        </BEWH_Deco_MkVIIApothecaryTabard>
+        <BEWH_DecoPSeal_5>
+            <flipped>false</flipped>
+            <colour />
+        </BEWH_DecoPSeal_5>
+        </presetData>
+    </Core40k.ExtraDecorationPresetDef>
+
+    <Core40k.ExtraDecorationPresetDef> <!-- MkX -->
+        <defName>BEWH_BT_ChampionBodyMkX</defName>
+        <label>Emperor's Champion</label>
+        <appliesTo>
+            <li>BEWH_MkXPowerArmor</li>
+        </appliesTo>
+        <presetData>
+        <BEWH_Deco_MkXApothecaryTabard>
+            <flipped>false</flipped>
+            <colour>(162, 54, 39)</colour>
+        </BEWH_Deco_MkXApothecaryTabard>
+        <BEWH_DecoPSeal_5>
+            <flipped>false</flipped>
+            <colour />
+        </BEWH_DecoPSeal_5>
+        </presetData>
+    </Core40k.ExtraDecorationPresetDef>
+
+    <!-- Head -->
+    <Core40k.ExtraDecorationPresetDef>
+        <defName>BEWH_BT_ChampionHeadMkVII</defName> <!-- MkVII -->
+        <label>Emperor's Champion</label>
+        <appliesTo>
+            <li>BEWH_MkVIIPowerArmorHelmet</li>
+        </appliesTo>
+        <presetData>
+        <BEWH_Deco_Visor_1>
+            <flipped>false</flipped>
+            <colour>(218,210,199)</colour>
+        </BEWH_Deco_Visor_1>
+        <BEWH_Deco_MkVIIApothecarySymbol>
+            <flipped>false</flipped>
+            <colour />
+        </BEWH_Deco_MkVIIApothecarySymbol>
+        </presetData>
+    </Core40k.ExtraDecorationPresetDef>
+
+    <Core40k.ExtraDecorationPresetDef>
+        <defName>BEWH_BT_ChampionHeadMkX</defName> <!-- MkX -->
+        <label>Emperor's Champion</label>
+        <appliesTo>
+            <li>BEWH_MkXPowerArmorHelmet</li>
+        </appliesTo>
+        <presetData>
+        <BEWH_Deco_Visor_1>
+            <flipped>false</flipped>
+            <colour>(218,210,199)</colour>
+        </BEWH_Deco_Visor_1>
+        <BEWH_Deco_MkXApothecarySymbol>
+            <flipped>false</flipped>
+            <colour />
+        </BEWH_Deco_MkXApothecarySymbol>
+        </presetData>
+    </Core40k.ExtraDecorationPresetDef>
+
+
+</Defs>

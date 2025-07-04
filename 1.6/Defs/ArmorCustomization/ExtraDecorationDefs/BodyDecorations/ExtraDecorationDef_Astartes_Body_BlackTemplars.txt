@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- Black Templars -->
+    <!-- Fabric -->
+    <Core40k.ExtraDecorationDef>
+        <defName>BEWH_Deco_BT_LowerTabard</defName>
+        <label>Lower tabard 2</label>
+        <description>...</description>
+        <iconPath>UI/Decoration/Icons/BEWH_Deco_BTLowerTabard_icon</iconPath>
+        <drawnTextureIconPath>Things/Decorations/Armor/Common/BEWH_Deco_BTLowerTabard</drawnTextureIconPath>
+        <drawSize>(0.5, 0.5)</drawSize>
+        <sortOrder>2.12</sortOrder>
+        <defaultShowRotation>
+            <!-- <li>North</li> -->
+            <li>South</li>
+            <li>West</li>
+            <li>East</li>
+        </defaultShowRotation>
+        <appliesTo>
+            <li>BEWH_MkVIIPowerArmor</li>
+            <li>BEWH_MkXPowerArmor</li>
+        </appliesTo>
+        <drawData>
+            <dataNorth>
+                <layer>89</layer>
+            </dataNorth>
+            <dataSouth>
+                <layer>44</layer>
+                <offset>(0, 0, -0.6)</offset>
+            </dataSouth>
+            <dataEast>
+                <layer>40</layer>
+                <offset>(0, 0, -0.6)</offset>
+            </dataEast>
+            <dataWest>
+                <layer>40</layer>
+                <offset>(0, 0, -0.6)</offset>
+            </dataWest>
+        </drawData>
+        <shaderType>CutoutComplex</shaderType>
+        <availablePresets>
+            <li>BEWH_DecoPaletteFabricBeige</li>
+            <li>BEWH_DecoPaletteFabricRed</li>
+            <li>BEWH_DecoPaletteApothecaryRed</li>
+            <li>BEWH_DecoPaletteIFBlack</li>
+        </availablePresets>
+        <colourable>true</colourable>
+        <useMask>true</useMask>
+    </Core40k.ExtraDecorationDef>
+
+    <!-- Seals -->
+    <Core40k.ExtraDecorationDef>
+        <defName>BEWH_BT_DecoPSeals</defName>
+        <label>Purity seals 6</label>
+        <description>...</description>
+        <iconPath>UI/Decoration/Icons/BEWH_Deco_BTPuritySeal_icon</iconPath>
+        <drawnTextureIconPath>Things/Decorations/Armor/Common/BEWH_Deco_BTPuritySeal</drawnTextureIconPath>
+        <sortOrder>4.6</sortOrder>
+        <defaultShowRotation>
+            <li>East</li>
+            <!-- <li>West</li> -->
+            <li>South</li>
+            <li>North</li>
+        </defaultShowRotation>
+        <appliesTo>
+            <li>BEWH_MkVIIPowerArmor</li>
+            <li>BEWH_MkXPowerArmor</li>
+            <li>BEWH_MkXPowerArmorChaplain</li>
+        </appliesTo>
+        <drawData>
+            <dataNorth>
+                <layer>100</layer>
+            </dataNorth>
+            <dataSouth>
+                <layer>86</layer>
+            </dataSouth>
+            <dataEast>
+                <layer>86</layer>
+            </dataEast>
+            <dataWest>
+                <layer>87</layer>
+                <flip>true</flip>
+            </dataWest>
+        </drawData>
+        <shaderType>Cutout</shaderType>
+        <flipable>true</flipable>
+    </Core40k.ExtraDecorationDef>
+
+    <!-- Relics -->
+    <Core40k.ExtraDecorationDef>
+        <defName>BEWH_BT_DecoRelic_3</defName>
+        <label>Relic 3</label>
+        <description>...</description>
+        <iconPath>UI/Decoration/Icons/BEWH_Deco_BTRelic_icon</iconPath>
+        <drawnTextureIconPath>Things/Decorations/Armor/Common/BEWH_Deco_BTRelic</drawnTextureIconPath>
+        <sortOrder>5</sortOrder>
+        <defaultShowRotation>
+            <li>South</li>
+            <li>East</li>
+            <li>West</li>
+            <!-- <li>North</li> -->
+        </defaultShowRotation>
+        <appliesTo>
+            <li>BEWH_MkVIIPowerArmor</li>
+            <li>BEWH_MkXPowerArmor</li>
+            <li>BEWH_MkXPowerArmorChaplain</li>
+        </appliesTo>
+        <drawData>
+            <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+            <dataNorth>
+                <layer>76</layer>
+            </dataNorth>
+            <dataSouth>
+                <layer>76</layer>
+            </dataSouth>
+            <dataEast>
+                <layer>64</layer>
+            </dataEast>
+            <dataWest>
+                <layer>64</layer>
+                <flip>true</flip>
+            </dataWest>
+        </drawData>
+        <shaderType>Cutout</shaderType>
+        <flipable>true</flipable>
+    </Core40k.ExtraDecorationDef>
+
+    <!-- Bling-bling -->
+    <Core40k.ExtraDecorationDef>
+        <defName>BEWH_BT_Deco_Bling</defName>
+        <label>Trinket</label>
+        <description>...</description>
+        <iconPath>UI/Decoration/Icons/BEWH_Deco_BTBlingBling_icon</iconPath>
+        <drawnTextureIconPath>Things/Decorations/Armor/Common/BEWH_Deco_BTBlingBling</drawnTextureIconPath>
+        <sortOrder>1.3</sortOrder>
+        <defaultShowRotation>
+            <li>South</li>
+            <li>West</li>
+            <li>East</li>
+        </defaultShowRotation>
+        <appliesTo>
+            <li>BEWH_MkVIIPowerArmor</li>
+            <li>BEWH_MkXPowerArmor</li>
+        </appliesTo>
+        <drawData>
+            <dataSouth>
+                <layer>70</layer>
+                <offset>(0, 0, 0)</offset>
+            </dataSouth>
+            <dataEast>
+                <layer>66</layer>
+            </dataEast>
+            <dataWest>
+                <layer>66</layer>
+            </dataWest>
+        </drawData>
+        <availablePresets>
+            <li>BEWH_DecoPaletteSilver</li>
+            <li>BEWH_DecoPaletteGold</li>
+        </availablePresets>
+        <shaderType>Cutout</shaderType>
+        <colourable>true</colourable>
+    </Core40k.ExtraDecorationDef>
+
+</Defs>
