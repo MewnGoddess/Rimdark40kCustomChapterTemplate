@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- Black Templar -->
+    <Genes40k.ShoulderIconDef ParentName="BEWH_RankShoulderIcon">
+        <defName>BEWH_RankIconBlackTemplar</defName>
+        <label>Black Templar</label>
+        <description>Black Templar rank icon.</description>
+        <iconPath>UI/Decoration/LegionBadges/BEWH_iconUI_Chapter_BlackTemplars</iconPath>
+        <drawnTextureIconPath>Things/Armor/Imperium/PowerArmor/RankIcons/BEWH_BTRankShoulder</drawnTextureIconPath>
+        <sortOrder>99</sortOrder>
+        <defaultColour>(44, 44, 44)</defaultColour> <!-- This sets the default colour of the icon (Default is white, which does nothing to the icon) -->
+        <useColour>true</useColour> <!-- This allows player to colour their icons-->   
+        <mustHaveRank>BEWH_AstartesRankNeophyte</mustHaveRank>
+    </Genes40k.ShoulderIconDef>
+
+</Defs>
