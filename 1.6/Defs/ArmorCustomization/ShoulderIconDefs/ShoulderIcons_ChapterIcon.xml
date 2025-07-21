@@ -10,6 +10,8 @@
         <drawnTextureIconPath>Things/Armor/Imperium/PowerArmor/ChapterIcons/BEWH_BlackTemplarsShoulder</drawnTextureIconPath>
         <sortOrder>99</sortOrder>
         <relatedChapterGene>BEWH_ChapterBlackTemplars</relatedChapterGene>
+        <useColour>true</useColour> <!-- This allows player to colour their icons-->   
+        <defaultColour>(44, 44, 44)</defaultColour> <!-- This sets the default colour of the icon (Defaults to white if null) -->
     </Genes40k.ShoulderIconDef>
 
 </Defs>
