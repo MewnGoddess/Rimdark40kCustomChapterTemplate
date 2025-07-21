@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>RimDark 40k - Black Templars</name>
-	<author>Phonicmas</author>
+	<author>Phonicmas, Mewn Goddess and Grim Cheese</author>
 	<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>
 	<packageId>Phonicmas.RimDark.BlackTemplars</packageId>
-	<description>A template mod for a custom chapter for RimDark 40k - Mankinds finest, showcasing what needs to be setup</description>
+	<description>A template mod for a custom chapter for RimDark 40k - Mankind's Finest, showcasing what needs to be setup.</description>
 	<modDependencies>
 		<li>
 			<packageId>Phonicmas.RimDark.MankindsFinest</packageId>

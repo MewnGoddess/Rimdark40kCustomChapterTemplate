@@ -17,76 +17,123 @@ Apothecary red: (162, 54, 39)
     <!-- Body -->
     <Core40k.ExtraDecorationPresetDef> <!-- MkVII -->
         <defName>BEWH_BT_ChampionBodyMkVII</defName>
-        <label>Emperor's Champion</label>
+        <label>BT Emperor's Champion</label>
         <appliesTo>
             <li>BEWH_MkVIIPowerArmor</li>
         </appliesTo>
         <presetData>
-        <BEWH_Deco_MkVIIApothecaryTabard>
-            <flipped>false</flipped>
-            <colour>(162, 54, 39)</colour>
-        </BEWH_Deco_MkVIIApothecaryTabard>
-        <BEWH_DecoPSeal_5>
-            <flipped>false</flipped>
-            <colour />
-        </BEWH_DecoPSeal_5>
+            <BEWH_DecoColorPauldron_1>
+                <flipped>false</flipped>
+                <colour>(255, 255, 255)</colour>
+            </BEWH_DecoColorPauldron_1>
+            <BEWH_DecoColorPauldron_2>
+                <flipped>false</flipped>
+                <colour>(255, 255, 255)</colour>
+            </BEWH_DecoColorPauldron_2>
+            <BEWH_BT_Deco_Bling>
+                <flipped>false</flipped>
+                <colour>(173, 178, 178)</colour> <!-- rgb(173, 178, 178) -->
+            </BEWH_BT_Deco_Bling>
+            <BEWH_Deco_BT_LowerTabard>
+                <flipped>false</flipped>
+                <colour>(173, 178, 178)</colour> <!-- rgb(173, 178, 178) -->
+            </BEWH_Deco_BT_LowerTabard>
+            <BEWH_Deco_MkVIIBlankTabard>
+                <flipped>false</flipped>
+                <colour>(173, 178, 178)</colour> <!-- rgb(173, 178, 178) -->
+            </BEWH_Deco_MkVIIBlankTabard>
+            <BEWH_Deco_Rondel1>
+                <flipped>false</flipped>
+                <colour>(66, 66, 66)</colour> <!-- rgb(66, 66, 66) -->
+            </BEWH_Deco_Rondel1>
+            <BEWH_BT_DecoRelic_3>
+                <flipped>false</flipped>
+                <colour/>
+            </BEWH_BT_DecoRelic_3>
         </presetData>
     </Core40k.ExtraDecorationPresetDef>
 
     <Core40k.ExtraDecorationPresetDef> <!-- MkX -->
         <defName>BEWH_BT_ChampionBodyMkX</defName>
-        <label>Emperor's Champion</label>
+        <label>BT Emperor's Champion</label>
         <appliesTo>
             <li>BEWH_MkXPowerArmor</li>
         </appliesTo>
         <presetData>
-        <BEWH_Deco_MkXApothecaryTabard>
-            <flipped>false</flipped>
-            <colour>(162, 54, 39)</colour>
-        </BEWH_Deco_MkXApothecaryTabard>
-        <BEWH_DecoPSeal_5>
-            <flipped>false</flipped>
-            <colour />
-        </BEWH_DecoPSeal_5>
+            <BEWH_DecoColorPauldron_1>
+                <flipped>false</flipped>
+                <colour>(255, 255, 255)</colour>
+            </BEWH_DecoColorPauldron_1>
+            <BEWH_DecoColorPauldron_2>
+                <flipped>false</flipped>
+                <colour>(255, 255, 255)</colour>
+            </BEWH_DecoColorPauldron_2>
+            <BEWH_BT_Deco_Bling>
+                <flipped>false</flipped>
+                <colour>(173, 178, 178)</colour> <!-- rgb(173, 178, 178) -->
+            </BEWH_BT_Deco_Bling>
+            <BEWH_Deco_BT_LowerTabard>
+                <flipped>false</flipped>
+                <colour>(173, 178, 178)</colour> <!-- rgb(173, 178, 178) -->
+            </BEWH_Deco_BT_LowerTabard>
+            <BEWH_Deco_MkXBlankTabard>
+                <flipped>false</flipped>
+                <colour>(173, 178, 178)</colour> <!-- rgb(173, 178, 178) -->
+            </BEWH_Deco_MkXBlankTabard>
+            <BEWH_Deco_Rondel1>
+                <flipped>false</flipped>
+                <colour>(66, 66, 66)</colour> <!-- rgb(66, 66, 66) -->
+            </BEWH_Deco_Rondel1>
+            <BEWH_BT_DecoRelic_3>
+                <flipped>false</flipped>
+                <colour/>
+            </BEWH_BT_DecoRelic_3>
         </presetData>
     </Core40k.ExtraDecorationPresetDef>
 
     <!-- Head -->
     <Core40k.ExtraDecorationPresetDef>
         <defName>BEWH_BT_ChampionHeadMkVII</defName> <!-- MkVII -->
-        <label>Emperor's Champion</label>
+        <label>BT Emperor's Champion</label>
         <appliesTo>
             <li>BEWH_MkVIIPowerArmorHelmet</li>
         </appliesTo>
         <presetData>
-        <BEWH_Deco_Visor_1>
-            <flipped>false</flipped>
-            <colour>(218,210,199)</colour>
-        </BEWH_Deco_Visor_1>
-        <BEWH_Deco_MkVIIApothecarySymbol>
-            <flipped>false</flipped>
-            <colour />
-        </BEWH_Deco_MkVIIApothecarySymbol>
+            <BEWH_Deco_MkVIILenseGlow>
+                <flipped>false</flipped>
+                <colour>(66, 66, 66)</colour> <!-- rgba(189, 28, 28, 1) -->
+            </BEWH_Deco_MkVIILenseGlow>
+            <BEWH_DecoLaurels>
+                <flipped>false</flipped>
+                <colour>(66, 66, 66)</colour> <!-- rgba(173, 178, 178, 1) -->
+            </BEWH_DecoLaurels>
+            <BEWH_MkVII_BTBrim>
+                <flipped>false</flipped>
+                <colour/>
+            </BEWH_MkVII_BTBrim>
         </presetData>
     </Core40k.ExtraDecorationPresetDef>
 
-    <Core40k.ExtraDecorationPresetDef>
+        <Core40k.ExtraDecorationPresetDef>
         <defName>BEWH_BT_ChampionHeadMkX</defName> <!-- MkX -->
-        <label>Emperor's Champion</label>
+        <label>BT Emperor's Champion</label>
         <appliesTo>
             <li>BEWH_MkXPowerArmorHelmet</li>
         </appliesTo>
         <presetData>
-        <BEWH_Deco_Visor_1>
-            <flipped>false</flipped>
-            <colour>(218,210,199)</colour>
-        </BEWH_Deco_Visor_1>
-        <BEWH_Deco_MkXApothecarySymbol>
-            <flipped>false</flipped>
-            <colour />
-        </BEWH_Deco_MkXApothecarySymbol>
+            <BEWH_Deco_MkXLenseGlow>
+                <flipped>false</flipped>
+                <colour>(189, 28, 28)</colour> <!-- rgba(189, 28, 28, 1) -->
+            </BEWH_Deco_MkXLenseGlow>
+            <BEWH_DecoLaurels>
+                <flipped>false</flipped>
+                <colour>(173, 178, 178)</colour> <!-- rgba(173, 178, 178, 1) -->
+            </BEWH_DecoLaurels>
+            <BEWH_MkX_BTBrim>
+                <flipped>false</flipped>
+                <colour/>
+            </BEWH_MkX_BTBrim>
         </presetData>
     </Core40k.ExtraDecorationPresetDef>
-
 
 </Defs>

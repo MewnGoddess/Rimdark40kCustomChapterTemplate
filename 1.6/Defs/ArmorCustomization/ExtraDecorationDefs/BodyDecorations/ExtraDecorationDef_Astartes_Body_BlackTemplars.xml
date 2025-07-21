@@ -30,12 +30,12 @@
                 <offset>(0, 0, -0.6)</offset>
             </dataSouth>
             <dataEast>
-                <layer>40</layer>
-                <offset>(0, 0, -0.6)</offset>
+                <layer>46</layer>
+                <offset>(-0.03, 0, -0.58)</offset>
             </dataEast>
             <dataWest>
-                <layer>40</layer>
-                <offset>(0, 0, -0.6)</offset>
+                <layer>46</layer>
+                <offset>(0.03, 0, -0.58)</offset>
             </dataWest>
         </drawData>
         <shaderType>CutoutComplex</shaderType>
@@ -94,12 +94,12 @@
         <description>...</description>
         <iconPath>UI/Decoration/Icons/BEWH_Deco_BTRelic_icon</iconPath>
         <drawnTextureIconPath>Things/Decorations/Armor/Common/BEWH_Deco_BTRelic</drawnTextureIconPath>
-        <sortOrder>5</sortOrder>
+        <sortOrder>5.2</sortOrder>
         <defaultShowRotation>
             <li>South</li>
-            <li>East</li>
+            <!-- <li>East</li> -->
             <li>West</li>
-            <!-- <li>North</li> -->
+            <li>North</li>
         </defaultShowRotation>
         <appliesTo>
             <li>BEWH_MkVIIPowerArmor</li>
@@ -107,7 +107,6 @@
             <li>BEWH_MkXPowerArmorChaplain</li>
         </appliesTo>
         <drawData>
-            <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
             <dataNorth>
                 <layer>76</layer>
             </dataNorth>
@@ -116,13 +115,20 @@
             </dataSouth>
             <dataEast>
                 <layer>64</layer>
+                <flip>true</flip>
             </dataEast>
             <dataWest>
                 <layer>64</layer>
-                <flip>true</flip>
             </dataWest>
         </drawData>
+        <availablePresets>
+            <li>BEWH_DecoPaletteSilver</li>
+            <li>BEWH_DecoPaletteGold</li>
+            <li>BEWH_DecoPaletteBronze</li>
+        </availablePresets>
         <shaderType>Cutout</shaderType>
+		<defaultColour>(240,176,29)</defaultColour>
+        <colourable>true</colourable>
         <flipable>true</flipable>
     </Core40k.ExtraDecorationDef>
 
@@ -146,7 +152,6 @@
         <drawData>
             <dataSouth>
                 <layer>70</layer>
-                <offset>(0, 0, 0)</offset>
             </dataSouth>
             <dataEast>
                 <layer>66</layer>
@@ -158,8 +163,10 @@
         <availablePresets>
             <li>BEWH_DecoPaletteSilver</li>
             <li>BEWH_DecoPaletteGold</li>
+            <li>BEWH_DecoPaletteBronze</li>
         </availablePresets>
         <shaderType>Cutout</shaderType>
+		<defaultColour>(240,176,29)</defaultColour>
         <colourable>true</colourable>
     </Core40k.ExtraDecorationDef>
 
