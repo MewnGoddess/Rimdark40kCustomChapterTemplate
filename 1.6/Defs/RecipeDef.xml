@@ -25,4 +25,22 @@
         </modExtensions>
     </RecipeDef>
 
+
+    <!-- Legion Material Creation -->
+    <RecipeDef ParentName="BEWH_LegionMaterialCreationFromOther">
+        <defName>BEWH_MakeThunderWarriorMatrix</defName>
+        <label>make Black Templar legion material</label>
+        <description>Make Black Templar legion material.</description>
+        <jobString>Making Black Templar legion material.</jobString>
+        <displayPriority>100</displayPriority>
+        <products>
+            <BEWH_ChapterMaterialBlackTemplar>1</BEWH_ChapterMaterialBlackTemplar>
+        </products>
+        <modExtensions>
+            <li Class="Genes40k.DefModExtension_LegionMaterialCreation">
+                <requiredLegionMaterial>BEWH_ChapterMaterialVII</requiredLegionMaterial>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
 </Defs>

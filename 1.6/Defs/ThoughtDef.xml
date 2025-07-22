@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>BEWH_BlackTemplarXenophobia</defName>
+        <thoughtClass>Thought_SituationalSocial</thoughtClass>
+        <workerClass>Genes40k.ThoughtWorker_BlackTemplar</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <requiredGenes>
+            <li>BEWH_ChapterBlackTemplars</li>
+        </requiredGenes>
+        <stages>
+            <li>
+                <label>Xeno scum</label>
+                <baseOpinionOffset>-25</baseOpinionOffset>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

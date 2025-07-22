@@ -6,15 +6,21 @@
         <label>Gene-seed Material: Black Templars</label>
         <description>...</description>
         <iconPath>UI/Genes/ChapterSpecific/BEWH_ChapterBlackTemplars</iconPath>
+        <geneClass>Genes40k.Gene_ZealousFury</geneClass>
         <displayOrderInCategory>100</displayOrderInCategory>
         <statOffsets>
             <MoveSpeed>0.1</MoveSpeed>
-            <ShootingAccuracyFactor_Short>0.1</ShootingAccuracyFactor_Short>
-            <ShootingAccuracyFactor_Touch>0.2</ShootingAccuracyFactor_Touch>
-            <MeleeHitChance>4</MeleeHitChance>
-            <MeleeDodgeChance>2</MeleeDodgeChance>
-            <MeleeDamageFactor>0.1</MeleeDamageFactor>
+            <ShootingAccuracyFactor_Short>0.05</ShootingAccuracyFactor_Short>
+            <ShootingAccuracyFactor_Touch>0.1</ShootingAccuracyFactor_Touch>
+            <MeleeHitChance>2</MeleeHitChance>
+            <MeleeDodgeChance>1</MeleeDodgeChance>
+            <MeleeDamageFactor>0.05</MeleeDamageFactor>
         </statOffsets>
+        <statFactors>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0</CertaintyLossFactor>
+            <SocialIdeoSpreadFrequencyFactor MayRequire="Ludeon.RimWorld.Ideology">1.15</SocialIdeoSpreadFrequencyFactor>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">1.15</ConversionPower>
+        </statFactors>
         <modExtensions>
             <li Class="Genes40k.DefModExtension_ChapterGene">
                 <chapterName>Black Templars</chapterName>
