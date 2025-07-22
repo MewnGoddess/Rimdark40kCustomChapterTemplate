@@ -11,44 +11,20 @@
         </requiredGenes>
         <stages>
             <li>
+                <label>Impure being</label>
+                <baseOpinionOffset>-25</baseOpinionOffset>
+            </li>
+            <li>
                 <label>Xeno scum</label>
                 <baseOpinionOffset>-50</baseOpinionOffset>
             </li>
         </stages>
         <modExtensions>
             <li Class="Genes40k.DefModExtension_ThoughtXenophobiaWhitelist">
-                <xenotypesNotHated>
-                    <li>Baseliner</li>
-                    <li>BEWH_Pariah</li>
+                <xenotypesImpure>                    <!-- Not fully hated, but still lil sus-->
                     <li>BEWH_ThunderWarrior</li>
-                    <li>BEWH_SpaceMarine</li>
-                    <li>BEWH_PrimarisSpaceMarine</li>
-                    <li>BEWH_Custodes</li>
-                    <li>BEWH_Primarch</li>
-                    <li>BEWH_LivingSaint</li>
-                </xenotypesNotHated>
-                <hateIfDifferentIdeo>true</hateIfDifferentIdeo>
-            </li>
-        </modExtensions>
-    </ThoughtDef>
-
-    <ThoughtDef>
-        <defName>BEWH_BlackTemplarAlmostXenophobia</defName>
-        <thoughtClass>Thought_SituationalSocial</thoughtClass>
-        <workerClass>Genes40k.ThoughtWorker_Xenophobia</workerClass>
-        <validWhileDespawned>true</validWhileDespawned>
-        <requiredGenes>
-            <li>BEWH_ChapterBlackTemplars</li>
-        </requiredGenes>
-        <stages>
-            <li>
-                <label>Impure being</label>
-                <baseOpinionOffset>-25</baseOpinionOffset>
-            </li>
-        </stages>
-        <modExtensions>
-            <li Class="Genes40k.DefModExtension_ThoughtXenophobiaWhitelist">
-                <xenotypesNotHated>
+                </xenotypesImpure>
+                <xenotypesNotHated>                    <!-- Not hated at all-->
                     <li>Baseliner</li>
                     <li>BEWH_Pariah</li>
                     <li>BEWH_SpaceMarine</li>
