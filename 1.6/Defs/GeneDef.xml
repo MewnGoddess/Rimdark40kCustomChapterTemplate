@@ -22,6 +22,10 @@
             <SocialIdeoSpreadFrequencyFactor MayRequire="Ludeon.RimWorld.Ideology">1.15</SocialIdeoSpreadFrequencyFactor>
             <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">1.15</ConversionPower>
         </statFactors>
+        <customEffectDescriptions>
+            <li>Suffers no mental breaks while in combat.</li>
+            <li>Decreased opinion of most other xenotypes.</li>
+        </customEffectDescriptions>
         <modExtensions>
             <li Class="Genes40k.DefModExtension_ChapterGene">
                 <chapterName>Black Templars</chapterName>
