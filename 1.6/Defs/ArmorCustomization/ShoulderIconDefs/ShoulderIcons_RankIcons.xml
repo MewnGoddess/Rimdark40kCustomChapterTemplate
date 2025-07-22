@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <!-- Black Templar -->
+    <!-- Black Templar rank icon available to anyone with the Neophyte rank -->
     <Genes40k.ShoulderIconDef ParentName="BEWH_RankShoulderIcon">
         <defName>BEWH_RankIconBlackTemplar</defName>
         <label>Black Templar</label>

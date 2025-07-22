@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+    <!-- The chapter material for the Black Templars, this is what is minimum needed to have it function properly -->
     <ThingDef ParentName="BEWH_ChapterGeneticMaterial">
         <defName>BEWH_ChapterMaterialBlackTemplar</defName>
         <label>legion material - Black Templar</label>

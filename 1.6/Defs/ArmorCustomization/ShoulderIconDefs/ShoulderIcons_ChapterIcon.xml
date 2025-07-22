@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <!-- Black Templars -->
+    <!-- Black Templar chapter icon -->
     <Genes40k.ShoulderIconDef ParentName="BEWH_ChapterShoulderIcon">
         <defName>BEWH_ChapterIconBT</defName>
         <label>Black Templars</label>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+    <!-- Below are the recipies for inserting Ascendance vials with black templar geneseed vials. You can edit the skill requirements and some of the other recipeDef field -->
     <!-- Firstborn -->
     <RecipeDef ParentName="BEWH_FirstbornVialInsertion">
         <defName>BEWH_MakeFirstbornChapterBlackTemplar</defName>

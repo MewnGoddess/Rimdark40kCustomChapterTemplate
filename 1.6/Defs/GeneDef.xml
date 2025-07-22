@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+    <!-- Black Templar gene added when chapter material is used -->
     <GeneDef ParentName="BEWH_ChapterGeneParent">
         <defName>BEWH_ChapterBlackTemplars</defName>
         <label>Gene-seed Material: Black Templars</label>
-        <description>...</description>
+        <description>Your gene-seed is a successor of the Imperial Fists. You have a preference for close range combat and dislike xenos.</description>
         <iconPath>UI/Genes/ChapterSpecific/BEWH_ChapterBlackTemplars</iconPath>
         <geneClass>Genes40k.Gene_ZealousFury</geneClass>
         <displayOrderInCategory>100</displayOrderInCategory>

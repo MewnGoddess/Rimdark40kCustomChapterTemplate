@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!-- Black Templars -->
+    <!-- Black Templars flag used for decorating the decorative flag -->
     <Genes40k.FlagIconDef>
         <defName>BEWH_FlagIconBlackTemplars</defName>
         <label>Black Templars</label>

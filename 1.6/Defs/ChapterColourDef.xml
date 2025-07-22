@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+    <!-- Default colours of the black templars -->
     <Genes40k.ChapterColourDef ParentName="BEWH_ChapterColourPresets">
         <defName>BEWH_ChapterColourBlackTemplars</defName>
         <label>BlackTemplars</label>
