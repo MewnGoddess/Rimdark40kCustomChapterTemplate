@@ -29,7 +29,7 @@
 
     <!-- Legion Material Creation -->
     <RecipeDef ParentName="BEWH_LegionMaterialCreationFromOther">
-        <defName>BEWH_MakeThunderWarriorMatrix</defName>
+        <defName>BEWH_MakeBlackTemplarLegionMaterial</defName>
         <label>make Black Templar legion material</label>
         <description>Make Black Templar legion material.</description>
         <jobString>Making Black Templar legion material.</jobString>
