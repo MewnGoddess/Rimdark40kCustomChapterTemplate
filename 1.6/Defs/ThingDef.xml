@@ -4,8 +4,8 @@
     <!-- The chapter material for the Black Templars, this is what is minimum needed to have it function properly -->
     <ThingDef ParentName="BEWH_ChapterGeneticMaterial">
         <defName>BEWH_ChapterMaterialBlackTemplar</defName>
-        <label>legion material - Black Templar</label>
-        <description>A specialized container designed to store and preserve the sacred genetic data of a specific Astartes Legion. Legion material develops within a Space Marine's body and can be harvested once fully developed and retrieved from the fallen.\n\nThis unit holds the genetic mutation material of Chapter - Black Templars.</description>
+        <label>chapter material - Black Templars</label>
+        <description>A specialized container designed to store and preserve the sacred genetic data of a specific Astartes Legion or Chapter. This material develops within a Space Marine's body and can be harvested once fully developed and retrieved from the fallen.\n\nThis unit holds the genetic mutation material of Chapter - Black Templars.</description>
         <graphicData>
             <texPath>Things/Item/ChapterMaterial/BEWH_ChapterMaterial_BlackTemplars</texPath>
             <graphicClass>Graphic_Single</graphicClass>
