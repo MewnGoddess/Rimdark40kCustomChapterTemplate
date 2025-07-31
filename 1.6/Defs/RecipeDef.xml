@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!-- Below are the recipies for inserting Ascendance vials with black templar geneseed vials. You can edit the skill requirements and some of the other recipeDef field -->
+    <!-- Below are the recipes for inserting Ascendance vials with black templar gene-seed vials. You can edit the skill requirements and some of the other recipeDef field -->
     <!-- Firstborn -->
     <RecipeDef ParentName="BEWH_FirstbornVialInsertion">
         <defName>BEWH_MakeFirstbornChapterBlackTemplar</defName>
@@ -30,9 +30,9 @@
     <!-- Legion Material Creation -->
     <RecipeDef ParentName="BEWH_LegionMaterialCreationFromOther">
         <defName>BEWH_MakeBlackTemplarLegionMaterial</defName>
-        <label>make Black Templar legion material</label>
-        <description>Make Black Templar legion material.</description>
-        <jobString>Making Black Templar legion material.</jobString>
+        <label>make Black Templar chapter material</label>
+        <description>Make Black Templar chapter material.</description>
+        <jobString>Making Black Templar chapter material.</jobString>
         <displayPriority>100</displayPriority>
         <products>
             <BEWH_ChapterMaterialBlackTemplar>1</BEWH_ChapterMaterialBlackTemplar>
