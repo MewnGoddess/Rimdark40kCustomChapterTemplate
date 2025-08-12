@@ -46,7 +46,6 @@
             <li>BEWH_DecoPaletteIFBlack</li>
         </availablePresets>
         <colourable>true</colourable>
-        <useMask>true</useMask>
     </Core40k.ExtraDecorationDef>
 
     <!-- Seals -->
