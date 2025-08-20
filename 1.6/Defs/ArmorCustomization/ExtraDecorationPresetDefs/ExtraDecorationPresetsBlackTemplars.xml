@@ -48,7 +48,6 @@ Apothecary red: (162, 54, 39)
             </BEWH_Deco_Rondel1>
             <BEWH_BT_DecoRelic_3>
                 <flipped>false</flipped>
-                <colour/>
             </BEWH_BT_DecoRelic_3>
         </presetData>
     </Core40k.ExtraDecorationPresetDef>
@@ -86,7 +85,6 @@ Apothecary red: (162, 54, 39)
             </BEWH_Deco_Rondel1>
             <BEWH_BT_DecoRelic_3>
                 <flipped>false</flipped>
-                <colour/>
             </BEWH_BT_DecoRelic_3>
         </presetData>
     </Core40k.ExtraDecorationPresetDef>
@@ -109,7 +107,6 @@ Apothecary red: (162, 54, 39)
             </BEWH_DecoLaurels>
             <BEWH_MkVII_BTBrim>
                 <flipped>false</flipped>
-                <colour/>
             </BEWH_MkVII_BTBrim>
         </presetData>
     </Core40k.ExtraDecorationPresetDef>
@@ -131,7 +128,6 @@ Apothecary red: (162, 54, 39)
             </BEWH_DecoLaurels>
             <BEWH_MkX_BTBrim>
                 <flipped>false</flipped>
-                <colour/>
             </BEWH_MkX_BTBrim>
         </presetData>
     </Core40k.ExtraDecorationPresetDef>
