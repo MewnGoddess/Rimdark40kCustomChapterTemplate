@@ -9,9 +9,11 @@
         <iconPath>UI/Decoration/LegionBadges/BEWH_iconUI_Chapter_BlackTemplars</iconPath>
         <drawnTextureIconPath>Things/Armor/Imperium/PowerArmor/RankIcons/BEWH_BTRankShoulder</drawnTextureIconPath>
         <sortOrder>99</sortOrder>
-        <useColour>true</useColour> <!-- This allows player to colour their icons-->   
-        <defaultColour>(44, 44, 44)</defaultColour> <!-- This sets the default colour of the icon (Defaults to white if null) -->
-        <mustHaveRank>BEWH_AstartesRankNeophyte</mustHaveRank>
+        <useColour>true</useColour>        <!-- This allows player to colour their icons-->
+        <defaultColour>(44, 44, 44)</defaultColour>        <!-- This sets the default colour of the icon (Defaults to white if null) -->
+        <mustHaveRank>
+            <li>BEWH_AstartesRankNeophyte</li>
+        </mustHaveRank>
     </Genes40k.ShoulderIconDef>
 
 </Defs>
