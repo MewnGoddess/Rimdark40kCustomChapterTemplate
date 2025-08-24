@@ -38,7 +38,7 @@
                 <offset>(0.03, 0, -0.58)</offset>
             </dataWest>
         </drawData>
-        <shaderType>CutoutComplex</shaderType>
+        <shaderType>Cutout</shaderType>
         <availablePresets>
             <li>BEWH_DecoPaletteFabricBeige</li>
             <li>BEWH_DecoPaletteFabricRed</li>

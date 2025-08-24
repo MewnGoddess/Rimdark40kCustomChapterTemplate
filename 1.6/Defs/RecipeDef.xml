@@ -44,4 +44,16 @@
         </modExtensions>
     </RecipeDef>
 
+
+    <!-- Black Templar Legion -->
+    <RecipeDef ParentName="BEWH_LegionlessToLegion">
+        <defName>BEWH_IntroduceMaterialChapterI</defName>
+        <label>introduce Black Templar material</label>
+        <modExtensions>
+            <li Class="Genes40k.DefModExtension_LegionMaterialCreation">
+                <requiredLegionMaterial>BEWH_ChapterMaterialBlackTemplar</requiredLegionMaterial>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
 </Defs>
