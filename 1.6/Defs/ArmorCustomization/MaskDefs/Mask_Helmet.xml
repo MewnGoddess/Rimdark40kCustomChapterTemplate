@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- MkVII -->
+    <Core40k.MaskDef ParentName="BEWH_MaskDef_Thing">
+        <defName>BEWH_MkVIIHelmetCrossMask</defName>
+        <label>Cross</label>
+        <description>Cross helmet paint pattern.</description>
+        <maskPath>Things/Headgear/Imperium/PowerArmor/MkVIIPowerArmorHelmet/Masks/Cross/BEWH_MkVII_BTHelmetCross</maskPath>
+        <appliesTo>
+            <li>BEWH_MkVIIPowerArmorHelmet</li>
+        </appliesTo>
+        <sortOrder>1</sortOrder>
+    </Core40k.MaskDef>
+
+</Defs>

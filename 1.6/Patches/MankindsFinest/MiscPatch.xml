@@ -15,4 +15,18 @@
         </value>
     </Operation>
 
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_MkVIIBlankTabard"]</xpath>
+        <value>
+            <useMask>true</useMask>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_MkXBlankTabard"]</xpath>
+        <value>
+            <useMask>true</useMask>
+        </value>
+    </Operation>
+
 </Patch>

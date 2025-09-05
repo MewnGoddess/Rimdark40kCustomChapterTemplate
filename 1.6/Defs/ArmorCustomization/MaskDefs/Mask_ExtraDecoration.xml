@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- Blank Tabbard -->
+    <Core40k.MaskDef ParentName="BEWH_MaskDef_ExtraDecoration">
+        <defName>BEWH_BlankTabardBTMkVII</defName>
+        <label>Black Templar Cross</label>
+        <description>???</description>
+        <maskPath>Things/Decorations/Armor/MkVII/BEWH_Deco_MkVIIBlankTabard_BT_mask</maskPath>
+        <appliesTo>
+            <li>BEWH_Deco_MkVIIBlankTabard</li>
+        </appliesTo>
+        <shaderType>BEWH_CutoutThreeColor</shaderType>
+        <colorAmount>3</colorAmount>
+        <sortOrder>2</sortOrder>
+    </Core40k.MaskDef>
+
+    <Core40k.MaskDef ParentName="BEWH_MaskDef_ExtraDecoration">
+        <defName>BEWH_BlankTabardBTMkX</defName>
+        <label>Black Templar Cross</label>
+        <description>???</description>
+        <maskPath>Things/Decorations/Armor/MkX/BEWH_Deco_MkVIIBlankTabard_BT_mask</maskPath>
+        <appliesTo>
+            <li>BEWH_Deco_MkXBlankTabard</li>
+        </appliesTo>
+        <shaderType>BEWH_CutoutThreeColor</shaderType>
+        <colorAmount>3</colorAmount>
+        <sortOrder>2</sortOrder>
+    </Core40k.MaskDef>
+
+    <!-- Rondel -->
+    <Core40k.MaskDef ParentName="BEWH_MaskDef_ExtraDecoration">
+        <defName>BEWH_Rondel1BT</defName>
+        <label>Black Templar Cross</label>
+        <description>???</description>
+        <maskPath>Things/Decorations/Armor/Common/BEWH_Deco_Shield1_BT_mask</maskPath>
+        <appliesTo>
+            <li>BEWH_Deco_Rondel1</li>
+        </appliesTo>
+        <colorAmount>3</colorAmount>
+        <sortOrder>2</sortOrder>
+    </Core40k.MaskDef>
+
+    <Core40k.MaskDef ParentName="BEWH_MaskDef_ExtraDecoration">
+        <defName>BEWH_Rondel2BT</defName>
+        <label>Black Templar Cross</label>
+        <description>???</description>
+        <maskPath>Things/Decorations/Armor/Common/BEWH_Deco_Shield2_BT_mask</maskPath>
+        <appliesTo>
+            <li>BEWH_Deco_Rondel2</li>
+        </appliesTo>
+        <colorAmount>3</colorAmount>
+        <sortOrder>2</sortOrder>
+    </Core40k.MaskDef>
+
+</Defs>
