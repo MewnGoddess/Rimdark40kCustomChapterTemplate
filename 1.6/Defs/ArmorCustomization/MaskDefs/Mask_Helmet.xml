@@ -10,6 +10,7 @@
         <appliesTo>
             <li>BEWH_MkVIIPowerArmorHelmet</li>
         </appliesTo>
+        <shaderType>BEWH_CutoutThreeColor</shaderType>
         <sortOrder>1</sortOrder>
     </Core40k.MaskDef>
 

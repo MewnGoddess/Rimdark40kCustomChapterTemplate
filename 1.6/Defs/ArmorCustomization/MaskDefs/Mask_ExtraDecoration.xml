@@ -37,6 +37,7 @@
         <appliesTo>
             <li>BEWH_Deco_Rondel1</li>
         </appliesTo>
+        <shaderType>BEWH_CutoutThreeColor</shaderType>
         <colorAmount>3</colorAmount>
         <sortOrder>2</sortOrder>
     </Core40k.MaskDef>
@@ -49,6 +50,7 @@
         <appliesTo>
             <li>BEWH_Deco_Rondel2</li>
         </appliesTo>
+        <shaderType>BEWH_CutoutThreeColor</shaderType>
         <colorAmount>3</colorAmount>
         <sortOrder>2</sortOrder>
     </Core40k.MaskDef>
