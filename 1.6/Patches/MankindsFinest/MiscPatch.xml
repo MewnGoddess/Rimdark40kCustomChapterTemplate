@@ -29,4 +29,15 @@
         </value>
     </Operation>
 
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="BEWH_AstartesPowerSword"]/modExtensions/li[@Class="Core40k.DefModExtension_AvailableDrawerTabDefs"]/tabDefs/li[text()="BEWH_WeaponAlternateBaseForms"]</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="BEWH_AstartesPowerSword"]/modExtensions/li[@Class="Core40k.DefModExtension_AvailableDrawerTabDefs"]/tabDefs</xpath>
+            <value>
+                <li>BEWH_WeaponAlternateBaseForms</li>
+            </value>
+        </nomatch>
+    </Operation>
+
+
 </Patch>

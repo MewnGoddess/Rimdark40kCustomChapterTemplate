@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- Power Sword -->
+    <Core40k.AlternateBaseFormDef>
+        <defName>BEWH_AstartesPowerSwordBlackTemplar</defName>
+        <label>Black Templar Power Sword</label>
+        <description>...</description>
+        <iconPath>Things/Retexture/BEWH_PowerSword_BT1</iconPath>
+        <drawnTextureIconPath>Things/Retexture/BEWH_PowerSword_BT1</drawnTextureIconPath>
+        <appliesTo>
+            <li>BEWH_AstartesPowerSword</li>
+        </appliesTo>
+        <colorAmount>3</colorAmount>
+    </Core40k.AlternateBaseFormDef>
+
+</Defs>
