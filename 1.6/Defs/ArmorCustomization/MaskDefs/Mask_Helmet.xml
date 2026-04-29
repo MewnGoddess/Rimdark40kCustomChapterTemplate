@@ -11,6 +11,7 @@
             <li>BEWH_MkVIIPowerArmorHelmet</li>
         </appliesTo>
         <shaderType>BEWH_CutoutThreeColor</shaderType>
+		<colorAmount>3</colorAmount>
         <sortOrder>1</sortOrder>
     </Core40k.MaskDef>
 

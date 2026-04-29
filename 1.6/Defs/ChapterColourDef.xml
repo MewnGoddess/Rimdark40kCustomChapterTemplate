@@ -5,8 +5,10 @@
     <Genes40k.ChapterColourDef ParentName="BEWH_ChapterColourPresets">
         <defName>BEWH_ChapterColourBlackTemplars</defName>
         <label>BlackTemplars</label>
+		<colorAmount>3</colorAmount>
         <primaryColour>(44,44,44)</primaryColour>
         <secondaryColour>(86,86,86)</secondaryColour>
+		<tertiaryColour>(232,232,232)</tertiaryColour>
         <relatedChapterGene>BEWH_ChapterBlackTemplars</relatedChapterGene>
         <relatedChapterIcon>BEWH_ChapterIconBT</relatedChapterIcon>
     </Genes40k.ChapterColourDef>

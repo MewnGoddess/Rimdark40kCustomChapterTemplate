@@ -4,7 +4,7 @@
     <!-- Power Sword -->
     <Core40k.AlternateBaseFormDef>
         <defName>BEWH_AstartesPowerSwordBlackTemplar</defName>
-        <label>Black Templar Power Sword</label>
+        <label>Black Sword</label>
         <description>...</description>
         <iconPath>Things/Retexture/BEWH_PowerSword_BT1</iconPath>
         <drawnTextureIconPath>Things/Retexture/BEWH_PowerSword_BT1</drawnTextureIconPath>
@@ -12,6 +12,9 @@
             <li>BEWH_AstartesPowerSword</li>
         </appliesTo>
         <colorAmount>3</colorAmount>
+		<newPrimaryColor>(81, 81, 81)</newPrimaryColor>
+        <newSecondaryColor>(115, 115, 115)</newSecondaryColor>
+        <newTertiaryColor>(222, 222, 222)</newTertiaryColor>
     </Core40k.AlternateBaseFormDef>
 
 </Defs>

@@ -38,7 +38,12 @@
                 <offset>(0.03, 0, -0.58)</offset>
             </dataWest>
         </drawData>
-        <shaderType>Cutout</shaderType>
+        <shaderType>CutoutComplex</shaderType>
+        <colourable>true</colourable>
+        <useMask>true</useMask>
+        <colorAmount>2</colorAmount>
+        <defaultColour>(222,222,222)</defaultColour>
+        <defaultColourTwo>(240,176,29)</defaultColourTwo>
         <availablePresets>
             <li>BEWH_DecoPaletteFabricBeige</li>
             <li>BEWH_DecoPaletteFabricRed</li>
