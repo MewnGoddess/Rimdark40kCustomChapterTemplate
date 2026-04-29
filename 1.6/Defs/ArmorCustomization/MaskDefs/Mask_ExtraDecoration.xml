@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <!-- Blank Tabbard -->
+    <!-- Blank Tabard -->
     <Core40k.MaskDef ParentName="BEWH_MaskDef_ExtraDecoration">
         <defName>BEWH_BlankTabardBTMkVII</defName>
         <label>Black Templar Cross</label>
@@ -19,7 +19,7 @@
         <defName>BEWH_BlankTabardBTMkX</defName>
         <label>Black Templar Cross</label>
         <description>???</description>
-        <maskPath>Things/Decorations/Armor/MkX/BEWH_Deco_MkVIIBlankTabard_BT_mask</maskPath>
+        <maskPath>Things/Decorations/Armor/MkX/BEWH_Deco_MkXBlankTabard_BT_mask</maskPath>
         <appliesTo>
             <li>BEWH_Deco_MkXBlankTabard</li>
         </appliesTo>
