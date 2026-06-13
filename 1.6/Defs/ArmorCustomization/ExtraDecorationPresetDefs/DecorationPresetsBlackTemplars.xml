@@ -15,7 +15,7 @@ Apothecary red: (162, 54, 39)
 
 <!-- Emperor's Champion -->
     <!-- Body -->
-    <Core40k.ExtraDecorationPresetDef> <!-- MkVII -->
+    <Core40k.DecorationPresetDef> <!-- MkVII -->
         <defName>BEWH_BT_ChampionBodyMkVII</defName>
         <label>BT Emperor's Champion</label>
         <appliesTo>
@@ -50,9 +50,9 @@ Apothecary red: (162, 54, 39)
                 <flipped>false</flipped>
             </BEWH_BT_DecoRelic_3>
         </presetData>
-    </Core40k.ExtraDecorationPresetDef>
+    </Core40k.DecorationPresetDef>
 
-    <Core40k.ExtraDecorationPresetDef> <!-- MkX -->
+    <Core40k.DecorationPresetDef> <!-- MkX -->
         <defName>BEWH_BT_ChampionBodyMkX</defName>
         <label>BT Emperor's Champion</label>
         <appliesTo>
@@ -87,10 +87,10 @@ Apothecary red: (162, 54, 39)
                 <flipped>false</flipped>
             </BEWH_BT_DecoRelic_3>
         </presetData>
-    </Core40k.ExtraDecorationPresetDef>
+    </Core40k.DecorationPresetDef>
 
     <!-- Head -->
-    <Core40k.ExtraDecorationPresetDef>
+    <Core40k.DecorationPresetDef>
         <defName>BEWH_BT_ChampionHeadMkVII</defName> <!-- MkVII -->
         <label>BT Emperor's Champion</label>
         <appliesTo>
@@ -109,9 +109,9 @@ Apothecary red: (162, 54, 39)
                 <flipped>false</flipped>
             </BEWH_MkVII_BTBrim>
         </presetData>
-    </Core40k.ExtraDecorationPresetDef>
+    </Core40k.DecorationPresetDef>
 
-        <Core40k.ExtraDecorationPresetDef>
+        <Core40k.DecorationPresetDef>
         <defName>BEWH_BT_ChampionHeadMkX</defName> <!-- MkX -->
         <label>BT Emperor's Champion</label>
         <appliesTo>
@@ -130,6 +130,6 @@ Apothecary red: (162, 54, 39)
                 <flipped>false</flipped>
             </BEWH_MkX_BTBrim>
         </presetData>
-    </Core40k.ExtraDecorationPresetDef>
+    </Core40k.DecorationPresetDef>
 
 </Defs>
