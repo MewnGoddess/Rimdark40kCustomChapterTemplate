@@ -51,6 +51,7 @@
             <li>BEWH_DecoPaletteIFBlack</li>
         </availablePresets>
         <colourable>true</colourable>
+        <decorationType>BEWH_DecoCategory_Fabrics</decorationType>
     </Core40k.ExtraDecorationDef>
 
     <!-- Seals -->
@@ -89,6 +90,7 @@
         </drawData>
         <shaderType>Cutout</shaderType>
         <flipable>true</flipable>
+        <decorationType>BEWH_DecoCategory_Pseals</decorationType>
     </Core40k.ExtraDecorationDef>
 
     <!-- Relics -->
@@ -131,9 +133,10 @@
             <li>BEWH_DecoPaletteBronze</li>
         </availablePresets>
         <shaderType>Cutout</shaderType>
-		<defaultColour>(240,176,29)</defaultColour>
+        <defaultColour>(240,176,29)</defaultColour>
         <colourable>true</colourable>
         <flipable>true</flipable>
+        <decorationType>BEWH_DecoCategory_Relics</decorationType>
     </Core40k.ExtraDecorationDef>
 
     <!-- Bling-bling -->
@@ -170,8 +173,9 @@
             <li>BEWH_DecoPaletteBronze</li>
         </availablePresets>
         <shaderType>Cutout</shaderType>
-		<defaultColour>(240,176,29)</defaultColour>
+        <defaultColour>(240,176,29)</defaultColour>
         <colourable>true</colourable>
+        <decorationType>BEWH_DecoCategory_Trinkets</decorationType>
     </Core40k.ExtraDecorationDef>
 
 </Defs>
